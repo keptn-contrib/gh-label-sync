@@ -1,0 +1,63 @@
+{
+    "desiredLabels": [
+        {
+            "name": "type:bug",
+            "color": "ff0000",
+            "default": false,
+            "description": "Something is not working as intended/documented"
+        },
+        {
+            "name": "type:critical",
+            "color": "b60205",
+            "default": false,
+            "description": "Defect that causes us/our end-users to lose time, money or value - fix right away"
+        },
+        {
+            "name": "type:feature",
+            "color": "0e8a16",
+            "default": false,
+            "description": "New feature or request that provides value to the stakeholders/end-users"
+        },
+        {
+            "name": "type:improvement",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Improves/enhances an existing feature"
+        },
+        {
+            "name": "type:chore",
+            "color": "fbca04",
+            "default": false,
+            "description": "Provides value to the (dev) team"
+        },
+        {
+            "name": "type:maintenance",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Something that needs to be addressed to prevent a problem/bug in the future"
+        },
+        {
+            "name": "type:research",
+            "color": "dde24a",
+            "default": false,
+            "description": "Topic needs to be researched (usually timeboxed)"
+        }
+    ],
+    "mappings": {
+        "type:feature": [
+            "enhancement"
+        ],
+        "type:bug": [
+            "bug"
+        ],
+        "type:chore": [
+            "chore"
+        ],
+        "type:maintenance": [
+            "maintenance"
+        ],
+        "type:research": [
+            "research"
+        ]
+    }
+}

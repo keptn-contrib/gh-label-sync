@@ -1,0 +1,24 @@
+{
+  "name": "gh-label-sync",
+  "version": "0.0.1",
+  "description": "GitHub label manager and synchronizer",
+  "main": "dist/index.js",
+  "bin": {
+    "gh-label-sync": "./dist/index.js"
+  },
+  "scripts": {
+    "cli": "node .",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paolo Chila <paolo.chila@dynatrace.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/yargs": "^17.0.9",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "octokit": "^1.7.1",
+    "yargs": "^17.3.1"
+  }
+}
